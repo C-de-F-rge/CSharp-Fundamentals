@@ -71,10 +71,22 @@ class Program
         //STRING: |tamaño: variable| rango: Unicode|
         string nombre = "Hola Mundo"; //NOTA: String es un arreglo de caracteres (char[])
 
+        //..........................................................................
+        //DATOS DE TIPO OBJETO
+        //
+        object objeto = 10; //NOTA: object es un tipo de dato que puede almacenar cualquier tipo de dato
+        object objeto2 = "Hola Mundo";
+
         //..........................................................................    
         //DATOS DE TIPO ARREGLO
         //ARRAY: |tamaño: variable| rango: variable|
         int[] numeros = { 1, 2, 3, 4, 5 };
         string[] nombres = new string[3] { "Juan", "Pedro", "Luis" };
+
+        //..........................................................................
+        //DATOS DE TIPO DINÁMICO
+        //DYNAMIC: |tamaño: variable| rango: variable|
+        dynamic variable = 10; //NOTA: dynamic es un tipo de dato que puede almacenar cualquier tipo de dato
+        variable = "Hola Mundo";
     }
 }
