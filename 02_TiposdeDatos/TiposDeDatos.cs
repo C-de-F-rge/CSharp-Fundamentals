@@ -72,7 +72,7 @@ namespace TiposDeDatos
         public int edad;
     }
 
-    class Program
+    class TiposDeDatos
     {
         static void Main(string[] args)
         {
